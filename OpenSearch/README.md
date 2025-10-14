@@ -4,7 +4,6 @@
 ## 디렉토리 구조
 ```
 OpenSearch/
-│
 ├── indexing.py            # 인덱싱 API (문서 -> OpenSearch)
 ├── server.py              # QA/RAG API (질의 -> 검색 -> LLM)
 ├── index_create/          # 인덱스 생성/매핑/설정
@@ -34,6 +33,7 @@ OpenSearch/
     AWS 인스턴스 실행 후 시작 필요
         - LLM_Server (15.165.181.171)
         - OS_Server (43.202.20.141)
+
 
 
 
