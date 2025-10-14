@@ -34,9 +34,10 @@ OpenSearch/
     - LLM_Server (15.165.181.171)
         > docker start qwen3-embedding
         > docker start qwen3-32b
-    - OS_Server (43.202.20.141)
+    - OS_Server (43.200.220.6)
         > cd opensearch
         > sudo docker compose start
+
 
 
 
