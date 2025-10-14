@@ -18,7 +18,6 @@ OpenSearch/
 
 1. 패키지 설치
     pip install -r requirements.txt
--
 
 2. 실행
 
@@ -29,12 +28,10 @@ OpenSearch/
     server.py
     - uvicorn server:app --host 0.0.0.0 --port 8002
     - /rag/sse 엔드포인트에 question 입력, top_k는 기본값 5로 설정됨
--
 
 ## 참고 사항
 
     AWS 인스턴스 실행 후 시작 필요
         - LLM_Server (15.165.181.171)
         - OS_Server (43.202.20.141)
--
 
