@@ -4,7 +4,7 @@
 ## 디렉토리 구조
 
 OpenSearch/
-├─ indexing.py           # 인덱싱 API (문서 -> OpenSearch)
+├ indexing.py           # 인덱싱 API (문서 -> OpenSearch)
 ├─ server.py             # QA/RAG API (질의 -> 검색 -> LLM)
 ├─ index_create/         # 인덱스 생성/매핑/설정
 ├─ prompts/              # LLM 프롬프트 템플릿
@@ -13,6 +13,14 @@ OpenSearch/
 ├─ .env                  # 환경변수 파일
 └─ requirements.txt      # 패키지 목록
 
+├── indexing.py
+├── server.py
+├── index_create/
+├── prompts/
+├── search/
+├── utils/
+├── .env
+└── requirements.txt
 
 ## 실행 방법
 
@@ -34,4 +42,5 @@ OpenSearch/
     AWS 인스턴스 실행 후 시작 필요
         - LLM_Server (15.165.181.171)
         - OS_Server (43.202.20.141)
+
 
