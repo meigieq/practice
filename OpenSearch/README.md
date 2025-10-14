@@ -31,8 +31,9 @@ OpenSearch/
 ## 참고 사항
 
     AWS 인스턴스 실행 후 시작 필요
-        - LLM_Server (15.165.181.171)
-        - OS_Server (43.202.20.141)
+    - LLM_Server (15.165.181.171)
+    - OS_Server (43.202.20.141)
+
 
 
 
