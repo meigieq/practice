@@ -32,10 +32,12 @@ OpenSearch/
 
     아래 AWS 인스턴스 실행 후 시작 필요
     - LLM_Server (15.165.181.171)
-        - Docker start qwen3-embedding
-        - Docker sart qwen3-32b
+        > docker start qwen3-embedding
+        > docker start qwen3-32b
     - OS_Server (43.202.20.141)
-        - Docker start OpenSearch
+        > cd opensearch
+        > sudo docker compose start
+
 
 
 
