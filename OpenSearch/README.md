@@ -2,7 +2,7 @@
 
 
 ## 디렉토리 구조
-
+```
 OpenSearch/
 │
 ├── indexing.py            # 인덱싱 API (문서 -> OpenSearch)
@@ -13,7 +13,7 @@ OpenSearch/
 ├── utils/                 # OpenSearch, 임베딩, 청킹 등 유틸
 ├── .env                   # 환경변수 파일
 └── requirements.txt       # 패키지 목록
-
+```
 ## 실행 방법
 
 1. 패키지 설치
@@ -34,6 +34,7 @@ OpenSearch/
     AWS 인스턴스 실행 후 시작 필요
         - LLM_Server (15.165.181.171)
         - OS_Server (43.202.20.141)
+
 
 
 
