@@ -1,7 +1,7 @@
-# OpenSearch
+## OpenSearch
 
 
-## 디렉토리 구조
+### 디렉토리 구조
 ```
 OpenSearch/
 ├── indexing.py            # 인덱싱 API (문서 -> OpenSearch)
@@ -13,7 +13,7 @@ OpenSearch/
 ├── .env                   # 환경변수 파일
 └── requirements.txt       # 패키지 목록
 ```
-## 실행 방법
+### 실행 방법
 
 1. 패키지 설치
     pip install -r requirements.txt
@@ -28,11 +28,12 @@ OpenSearch/
     - uvicorn server:app --host 0.0.0.0 --port 8002
     - /rag/sse 엔드포인트에 question 입력, top_k는 기본값 5로 설정됨
 
-## 참고 사항
+### 참고 사항
 
-    AWS 인스턴스 실행 후 시작 필요
+    아래 AWS 인스턴스 실행 후 시작 필요
     - LLM_Server (15.165.181.171)
     - OS_Server (43.202.20.141)
+
 
 
 
